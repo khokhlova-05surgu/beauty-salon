@@ -12,5 +12,4 @@ echo "<h2>Таблица consumers</h2>";
 echo 'id'. ' '. 'name'. ' '. 'email'."<br>";
 while ($row = $result->fetch()) {
     echo $row['id']. ' '. $row['name']. ' '. $row['delivery_address']. ' '. $row['email']."<br>";
-
 }
